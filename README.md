@@ -14,9 +14,6 @@
 - Analytics dashboard for Sellers
 - Public storefront page 
 
-<hr>
-
-**Monetization:** Take a cut of sales + optional subscription for advanced storefront features.
 
 ## Tech Stack.
 
