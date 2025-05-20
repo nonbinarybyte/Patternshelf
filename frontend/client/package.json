@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "client",
+  "description": "a crochet/knitting/sewing selling platform for vendors & customers!",
+  "version": "0.1.0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nonbinarybyte/Patternshelf/issues"
+  },
+  "author": {
+    "name": "nonbinarybyte",
+    "url": "https://github.com/nonbinarybyte"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonbinarybyte/Patternshelf.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.4.0",
+    "@stripe/stripe-js": "^1.46.0",
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.3.5"
+  }
+}
