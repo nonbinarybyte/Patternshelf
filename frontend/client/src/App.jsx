@@ -6,12 +6,15 @@ import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import './index.css'
+
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-1 p-4">
+      <main className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product/:id" element={<Product />} />
@@ -21,6 +24,7 @@ export default function App() {
           <Route path="/register" element={<Register />} />
         </Routes>
       </main>
+      <Footer />
     </div>
-  )
+  );
 }
