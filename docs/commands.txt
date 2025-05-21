@@ -1,0 +1,3 @@
+Server Start: npm start
+Client Start: npm run dev
+Install: npm install <pkg>
