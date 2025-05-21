@@ -1,0 +1,3 @@
+Tailwind Colors: https://tailscan.com/colors
+Domain: Cloudflare
+Version Control: Git & GitHub
