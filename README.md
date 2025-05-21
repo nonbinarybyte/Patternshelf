@@ -109,6 +109,4 @@ This project is licensed under the [MIT License](LICENSE).
 For questions, suggestions, or feedback:
 
 - **GitHub**: [@nonbinarybyte](https://github.com/nonbinarybyte)
-- **Email**: [Your Email Address]
-
-*Replace with your actual contact information.*
+- **Discord**: `@nonbinarybyte`
