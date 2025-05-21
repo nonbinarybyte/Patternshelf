@@ -1,10 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Instrument+Serif:ital@0;1&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mrs+Saint+Delafield&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 /* ---------- Custom Styles ---------- */
+.lexend-deca {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
 
+.mrs-saint-delafield-regular {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+:root {
+  /* Custom theme colors */
+  --color-primary: #4f46e5; /* indigo-600 */
+  --color-secondary: #3b82f6; /* blue-500 */
+  --color-accent: #fbbf24; /* amber-400 */
+  --color-background: #f9fafb; /* gray-50 */
+  --color-text: #1f2937; /* gray-800 */
+}
+
+
+/* Set height for html, body, and root to ensure full height layout */
 html, body, #root {
   height: 100%;
 }

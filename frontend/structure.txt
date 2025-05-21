@@ -1,0 +1,54 @@
+project-root/
+│
+├── client/                   # Frontend (React + Vite + Tailwind)
+│   ├── public/               # Static assets (favicon, etc.)
+│   ├── src/
+│   │   ├── assets/           # Images, icons, etc.
+│   │   ├── components/       # Reusable components (Navbar, Footer, Charts, etc.)
+│   │   ├── layouts/          # Layouts (DashboardLayout, AuthLayout)
+│   │   ├── pages/            # Route components
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   └── dashboard/
+│   │   │       ├── DashboardHome.jsx
+│   │   │       ├── Products.jsx
+│   │   │       ├── Orders.jsx
+│   │   │       ├── NewProduct.jsx
+│   │   │       └── Settings.jsx
+│   │   ├── services/         # API calls (fetch/axios)
+│   │   │   └── api.js
+│   │   ├── context/          # Auth, theme, global state
+│   │   ├── App.jsx           # Main App component with routes
+│   │   ├── main.jsx          # Entry point
+│   │   └── index.css         # TailwindCSS imports
+│   └── vite.config.js
+│
+├── server/                   # Backend (Express + MongoDB + Stripe)
+│   ├── controllers/          # Route logic
+│   │   ├── authController.js
+│   │   ├── productController.js
+│   │   ├── orderController.js
+│   │   └── sellerController.js
+│   ├── middleware/           # Auth, error handling, etc.
+│   │   └── authMiddleware.js
+│   ├── models/               # Mongoose models
+│   │   ├── User.js
+│   │   ├── Product.js
+│   │   ├── Order.js
+│   │   └── Payout.js
+│   ├── routes/               # API routes
+│   │   ├── authRoutes.js
+│   │   ├── productRoutes.js
+│   │   ├── orderRoutes.js
+│   │   └── sellerRoutes.js
+│   ├── config/               # DB, Stripe, environment config
+│   │   ├── db.js
+│   │   └── stripe.js
+│   ├── server.js             # Main server entry
+│   └── .env
+│
+├── .gitignore
+├── README.md
+├── package.json             # For backend (add concurrently if full-stack dev)
+└── client/package.json      # For frontend

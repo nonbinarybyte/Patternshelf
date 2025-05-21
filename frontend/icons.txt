@@ -1,0 +1,40 @@
+Currency:
+  <i class="bi bi-currency-dollar"></i>
+  <i class="bi bi-currency-euro"></i>
+  <i class="bi bi-currency-pound"></i>
+  <i class="bi bi-currency-rupee"></i>
+  <i class="bi bi-currency-yen"></i>
+
+Social Media:
+  <i class="bi bi-bluesky"></i>
+  <i class="bi bi-instagram"></i>
+  <i class="bi bi-tiktok"></i>
+  <i class="bi bi-twitter"></i>
+  <i class="bi bi-envelope-fill"></i>
+  <i class="bi bi-youtube"></i>
+
+File Icons:
+  <i class="bi bi-filetype-pdf"></i>
+  <i class="bi bi-filetype-docx"></i>
+  <i class="bi bi-filetype-txt"></i>
+  <i class="bi bi-filetype-html"></i>
+  <i class="bi bi-file-zip"></i>
+
+
+Utility:
+  <i class="bi bi-gear-fill"></i>
+  <i class="bi bi-geo-alt-fill"></i>
+  <i class="bi bi-inbox-fill"></i>
+  <i class="bi bi-link-45deg"></i>
+  <i class="bi bi-list"></i>
+  <i class="bi bi-patch-check"></i>
+  <i class="bi bi-search"></i>
+  <i class="bi bi-share"></i>
+  <i class="bi bi-shop"></i>
+  <i class="bi bi-star"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-stripe"></i>
+  <i class="bi bi-trash"></i>
+  <i class="bi bi-universal-access"></i>
+  <i class="bi bi-upload"></i>
+  <i class="bi bi-three-dots-vertical"></i>
