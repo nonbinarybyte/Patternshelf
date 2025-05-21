@@ -66,10 +66,10 @@ Ensure you have Node.js and npm installed on your machine. Adjust the steps as n
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: [Specify frameworks/libraries used, e.g., React, Vue.js]
-- **Backend**: [Specify backend technologies, e.g., Node.js, Express]
-- **Database**: [Specify database used, e.g., MongoDB, PostgreSQL]
-- **Authentication**: [Specify authentication method, e.g., JWT, OAuth]
+- **Frontend**: React, Vite, TailwindCss, BootstrapIcons,
+- **Backend**: Node.js, Express, Stripe, ect...
+- **Database**: MongoDB
+- **Authentication**: JWT, & OAuth
 
 *Please update the above with the specific technologies used in your project.*
 
