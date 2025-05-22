@@ -6,3 +6,8 @@ router.post('/register', register);
 router.post('/login', login);
 
 module.exports = router;
+
+const { forgotPassword, resetPassword } = require('../controllers/authController');
+
+router.post('/forgot-password', forgotPassword);
+router.post('/reset-password/:token', resetPassword);

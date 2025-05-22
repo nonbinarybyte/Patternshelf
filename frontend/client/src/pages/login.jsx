@@ -20,6 +20,11 @@ export default function Login() {
       <h2 className="text-xl mb-4 instrument-serif-regular">Login</h2>
       <input type="email" placeholder="Email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} className="mb-2 w-full p-2 border" required />
       <input type="password" placeholder="Password" value={form.password} onChange={e => setForm({ ...form, password: e.target.value })} className="mb-4 w-full p-2 border" required />
+      <div className="text-sm text-center mt-2">
+        <Link to="/forgot-password" className="text-pink-400 hover:underline">
+            Forgot password?
+        </Link>
+      </div>
       <button className="montserrat bg-pink-400 text-white px-4 py-2 rounded">Login</button>
     </form>
   );

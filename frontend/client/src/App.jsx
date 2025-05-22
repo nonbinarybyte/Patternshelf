@@ -3,7 +3,8 @@ import Home from './pages/Home'
 import Product from './pages/Product'
 import Checkout from './pages/Checkout'
 import Dashboard from './pages/Dashboard'
-import Login from './pages/Login'
+import Login from './pages/login'
+import ForgotPassword from './pages/forgotPassword'
 import Register from './pages/Register'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/checkout/:id" element={<Checkout />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/forgotPassword" element={<ForgotPassword />} />
           <Route path="/register" element={<Register />} />
         </Routes>
       </main>
